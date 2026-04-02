@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Krupashri Koli | AI/ML Engineer",
-  description: "Solving Business Problems with AI. Transforming complex data challenges into scalable AI solutions with measurable business impact.",
+  title: "Krupashri Koli | Event Planner",
+  description:
+    "Event Planner (in the making) and experience curator — creating moments people carry with them.",
 };
 
 export default function RootLayout({
