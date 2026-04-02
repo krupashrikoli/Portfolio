@@ -629,27 +629,25 @@ export default function EventPortfolioPage() {
               <div className="rounded-[24px] border border-slate-200 bg-white/80 p-6 shadow-[0_30px_80px_-60px_rgba(15,23,42,0.45)] backdrop-blur md:p-8">
                 <div className="space-y-5 text-justify hyphens-none text-slate-700">
                   <p className="leading-relaxed">
-                    While my academic journey took me into the world of technology,
-                    my heart always leaned towards people, energy, and experiences.
-                    From being on stage with a mic in hand to working behind the
-                    scenes of college fests, I’ve lived both the spotlight and the
-                    chaos that comes with creating something memorable.
+                    I began my journey in technology—completing my Master’s in AI
+                    and working with companies like Philips and Coforge. But even
+                    then, I found myself drawn to something more human—moments
+                    filled with energy, connection, and feeling.
                   </p>
                   <p className="leading-relaxed">
-                    Whether it was helping friends plan their birthdays or putting
-                    together small celebrations, I’ve always been the one thinking
-                    about the details and the experience. Because an event isn’t
-                    just managed—it’s felt.
+                    From being on stage to quietly shaping things behind the
+                    scenes, I’ve always loved where it all comes together. The
+                    details, the flow, the way a moment turns into a memory. And
+                    somewhere along the way, I realized—this wasn’t just something
+                    I enjoyed. It was where I truly belonged.
                   </p>
                   <p className="leading-relaxed">
-                    Today, I’m choosing to follow that instinct of bringing
-                    together my sense of creativity, attention to detail, and love
-                    for meaningful moments into the world of event planning.
+                    So today, I’m choosing to follow that calling.
                   </p>
                   <p className="font-semibold text-slate-900">
                     Because for me, it’s never just about managing an event.
                     <span className="block text-slate-700">
-                      It’s about how it feels when everything comes together.
+                      It’s how it feels when everything comes together. ✨
                     </span>
                   </p>
                 </div>
