@@ -678,9 +678,9 @@ export default function EventPortfolioPage() {
               </span>
               , creativity, and care in every detail.
             </h2>
-            {/* <p className="max-w-2xl text-slate-700">
+            <p className="max-w-2xl text-slate-700">
               Click to open.
-            </p> */}
+            </p> 
           </motion.div>
 
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
