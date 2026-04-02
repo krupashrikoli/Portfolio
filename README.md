@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio — Event Planner / Experience Curator
 
-## Getting Started
+Single-page portfolio built with **Next.js**, **Tailwind CSS**, **Framer Motion**, and **Lucide**.
 
-First, run the development server:
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Where to edit content
 
-To learn more about Next.js, take a look at the following resources:
+- **Main page**: `app/EventPortfolioPage.tsx`
+- **Entry**: `app/page.tsx`
+- **Global styles**: `app/globals.css`
+- **Images**: `public/` (served by Next.js)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact buttons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The contact section uses:
+- **Mail button**: opens Gmail web on desktop, and the default mail app on mobile (with a prefilled template).
+- **WhatsApp button**: opens WhatsApp chat via `wa.me` with a prefilled message.
 
-## Deploy on Vercel
+Edit these constants in `app/EventPortfolioPage.tsx`:
+- `CONTACT_EMAIL`
+- `MAIL_SUBJECT`
+- `MAIL_BODY`
+- `WHATSAPP_PHONE_E164`
+- `WHATSAPP_PREFILL`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy (Vercel)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Import the GitHub repo in Vercel
+2. Framework preset: **Next.js**
+3. Build command: `npm run build`
+4. Output: default
+
