@@ -307,7 +307,7 @@ export default function EventPortfolioPage() {
         note: "Textures, florals, colors.",
         accent: ACCENTS[2],
         imageSrc: "/moodboard/celebration-moodboards.jpg",
-        imageObjectPosition: "object-[center_62%]",
+        imageObjectPosition: "object-[center_70%]",
       },
     ],
     [],
