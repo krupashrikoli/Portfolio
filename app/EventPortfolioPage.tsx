@@ -647,7 +647,7 @@ export default function EventPortfolioPage() {
                   <p className="font-semibold text-slate-900">
                     Because for me, it’s never just about managing an event.
                     <span className="block text-slate-700">
-                      It’s how it feels when everything comes together. ✨
+                      It’s about how it feels when everything comes together. ✨
                     </span>
                   </p>
                 </div>
